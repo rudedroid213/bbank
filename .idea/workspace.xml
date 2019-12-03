@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20b463f4-7976-4334-a152-d52b13e473f5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UNVfOfx6CdGz9RtON7yawisboI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../autotests001" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="JUnit.FirstTest.FirstTest3">
+    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="delivery001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.belarusbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.belarusbank" />
+      <option name="MAIN_CLASS_NAME" value="by.belarusbank.FirstTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.FirstTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="delivery001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.belarusbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.belarusbank" />
+      <option name="MAIN_CLASS_NAME" value="by.belarusbank.FirstTest" />
+      <option name="METHOD_NAME" value="FirstTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.FirstTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="delivery001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.belarusbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.belarusbank" />
+      <option name="MAIN_CLASS_NAME" value="by.belarusbank.FirstTest" />
+      <option name="METHOD_NAME" value="FirstTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.Iphone6tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="delivery001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.belarusbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.belarusbank" />
+      <option name="MAIN_CLASS_NAME" value="by.belarusbank.FirstTest" />
+      <option name="METHOD_NAME" value="Iphone6tests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.comptests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="delivery001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.belarusbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.belarusbank" />
+      <option name="MAIN_CLASS_NAME" value="by.belarusbank.FirstTest" />
+      <option name="METHOD_NAME" value="comptests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FirstTest.FirstTest3" />
+        <item itemvalue="JUnit.FirstTest.comptests" />
+        <item itemvalue="JUnit.FirstTest.Iphone6tests" />
+        <item itemvalue="JUnit.FirstTest.FirstTest2" />
+        <item itemvalue="JUnit.FirstTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20b463f4-7976-4334-a152-d52b13e473f5" name="Default Changelist" comment="" />
+      <created>1575197142080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575197142080</updated>
+      <workItem from="1575197146638" duration="3862000" />
+      <workItem from="1575204799546" duration="48000" />
+      <workItem from="1575205037014" duration="26224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="557" y="186" key="#FirstTest" timestamp="1575208089233">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="186" key="#FirstTest/0.0.1920.1040@0.0.1920.1040" timestamp="1575208089233" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1575204542279">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575204542279" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1575367145088">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="282" key="GridCell.Tab.0.bottom/0.0.1280.728@0.0.1280.728" timestamp="1575226410468" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575367145088" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1575367145088">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="282" key="GridCell.Tab.0.center/0.0.1280.728@0.0.1280.728" timestamp="1575226410468" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575367145088" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1575367145087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="282" key="GridCell.Tab.0.left/0.0.1280.728@0.0.1280.728" timestamp="1575226410464" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575367145087" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1575367145088">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="282" key="GridCell.Tab.0.right/0.0.1280.728@0.0.1280.728" timestamp="1575226410468" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575367145088" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1575208864471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575208864471" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1575208864470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575208864470" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1575208864470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575208864470" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1575208864471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575208864471" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1575204649507">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575204649507" />
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575205036828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575205036828" />
+    <state x="522" y="255" width="876" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1575208522982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="522" y="255" width="876" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1575208522982" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1575298066117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575298066117" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
