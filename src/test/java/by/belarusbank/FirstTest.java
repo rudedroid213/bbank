@@ -13,6 +13,7 @@ public class FirstTest extends WebDriverSetting {
 
     @Test
     public void FirstTest() {
+        //Проверка на открытие сайта дефолт браузере хрома
 
         driver.get("https://belarusbank.by/"); //Зайти на сайт Беларусьбанк
         String title = driver.getTitle();
@@ -20,26 +21,37 @@ public class FirstTest extends WebDriverSetting {
         System.out.println(driver.getTitle());
         driver.quit();
     }
+
     @Test
-    public void FirstTest2() {
+    public void Iphone6() {
+        //Проверка на открытие сайта в мобильной версии и зайти в логин
 
-
+        driver.manage().window().setSize(new Dimension(375, 667));
         driver.get("https://belarusbank.by/");
-
-
-        WebElement element = driver.findElement(By.xpath("//a[@class='mobile-main-nav-btn mobile-main-nav-btn--ib']")); //Зайти в мобильный интернет-банкинг
-        element.click();
-        driver.close();
-        driver.switchTo().window("https://ibank.asb.by/wps/portal/ibank/Home/login/");
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("id=\"login_in\"")));
-
+        driver.findElement(By.xpath("//span[@class='mobile-main-nav-btn__icon']")).click();
+        String title = driver.getTitle();
+        Assert.assertTrue(title.equals("Курсы валют, кредиты, вклады, платежные карточки, страхование")); //Сравить title с сайтом и выйти, если все ок
+        System.out.println(driver.getTitle());
         driver.quit();
+        }
 
 
-    }
-    @Test
-    public void FirstTest3() {
+     @Test
+        public void IpadAPPLE() {
+        //Проверка на открытие сайта в мобильной версии и зайти в логин
+
+        driver.manage().window().setSize(new Dimension(768, 1024));
+        driver.get("https://belarusbank.by/");
+        driver.findElement(By.xpath("//span[@class='mobile-main-nav-btn__icon']")).click();
+        String title = driver.getTitle();
+        Assert.assertTrue(title.equals("Курсы валют, кредиты, вклады, платежные карточки, страхование")); //Сравить title с сайтом и выйти, если все ок
+        System.out.println(driver.getTitle());
+        driver.quit();
+        }
+
+
+     @Test
+        public void FirstTest3() {
         driver.get("https://belarusbank.by/");
 
         WebElement element = driver.findElement(By.xpath("//button[@class='mobile-main-nav-btn mobile-main-nav-btn--menu js-open-mobile-menu']")); //Меню бургер откроется
@@ -59,7 +71,7 @@ public class FirstTest extends WebDriverSetting {
     }
 
     @Test
-    public void comptests() {
+    public void comptests() throws InterruptedException {
         //Тест: Вклад при корректных данных(положительный)
         driver.manage().window().setSize(new Dimension(1280, 720));
         driver.get("https://belarusbank.by/");
@@ -68,19 +80,10 @@ public class FirstTest extends WebDriverSetting {
         driver.findElement(By.xpath("//div[@class='fixed-nav__navigation']//div[2]")).click(); // Открыл боковое меню Калькуляторы
         //WebDriverWait wait = new WebDriverWait(driver, 5);
        // wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("div.fixed-nav__navigation")));
-
+        Thread.sleep(1000);
         driver.findElement(By.xpath("//li[@class='fixed-nav-menu__item js-tabs__tab open']//a[1]//span[2]")).click(); //  открыть калькулятор вкладов
-
-
-
-
-
-
-
-
-
-
-
+        driver.quit();
+        //ласт
 
 
     }
