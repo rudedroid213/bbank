@@ -81,7 +81,18 @@ public class FirstTest extends WebDriverSetting {
         //WebDriverWait wait = new WebDriverWait(driver, 5);
        // wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("div.fixed-nav__navigation")));
         Thread.sleep(1000);
-        driver.findElement(By.xpath("//li[@class='fixed-nav-menu__item js-tabs__tab open']//a[1]//span[2]")).click(); //  открыть калькулятор вкладов
+
+        driver.findElement(By.linkText("Калькулятор вкладов")).click();
+        Thread.sleep(1000);
+
+        driver.findElement(By.id("summa")).sendKeys("5000"); //Ввод суммы
+        //driver.findElement(By.id("select_val")).click();
+        driver.findElement(By.xpath("//div[@class='form-group js-accordion']//div[2]//div[1]//div[1]//div[1]")).click(); //Открыть чекбокс Выбора валюты
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//div[@class='page-grid__item page-grid__item--main col col-lg-9']//li[2]")).click(); //Выбор валюты бел. рубли
+        //driver.findElement(By.xpath("//select[@id='select_vklad']")).click();
+
+
         driver.quit();
         //ласт
 
